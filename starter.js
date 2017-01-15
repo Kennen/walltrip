@@ -549,7 +549,7 @@ function check_city_type( tipo ) {
         vuelta["barracks"] = 15;
         vuelta["wall"] = 25;
         vuelta["academy"] = 34;
-        vuelta["temple"] = 35;
+        vuelta["temple"] = 30;
         vuelta["theater"] = 1;
         vuelta["thermal"] = 0;
         vuelta["library"] = 0;

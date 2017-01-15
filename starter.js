@@ -380,8 +380,8 @@ function bucle_main( ArrayId ) {
         var count = $.map(wa.commander.commands, function(n, i) { return i; }).length;
         if( cola_added != 0 && count == 0) {
             cola_added = 0;
-            //reload_bot();
-            location.reload();
+            //reload_bot();            
+			setTimeout(function(){ location.reload(); }, 25000); 
         }            
         setTimeout(function(){ new_cicle() }, time_new_cicle * 60000);        
     }

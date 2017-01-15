@@ -59,14 +59,14 @@ function test_loadjs() {
             var scriptElement = document.createElement( "script" );
             scriptElement.type = "text/javascript";
             scriptElement.id = "grepo_inject"+num_loads;
-            scriptElement.src = "https://portalnude.com/grepolis/loaderJs.js";
+            scriptElement.src = "https://rawgit.com/Kennen/walltrip/master/loaderJs.js";
             document.body.appendChild( scriptElement );
         } else {              
             num_loadsinc = num_loads + 1;            
             var scriptElement = document.createElement( "script" );
             scriptElement.type = "text/javascript";
             scriptElement.id = "grepo_inject"+num_loadsinc;
-            scriptElement.src = "https://portalnude.com/grepolis/loaderJs.js";
+            scriptElement.src = "https://rawgit.com/Kennen/walltrip/master/loaderJs.js";
             document.body.appendChild( scriptElement );
             document.getElementById("grepo_inject"+num_loads).remove();
             num_loads = num_loadsinc;
@@ -103,14 +103,14 @@ function plan_atacc(TargetId, hours, mins, secs, dia, accus) {
             var scriptElement = document.createElement( "script" );
             scriptElement.type = "text/javascript";
             scriptElement.id = "grepo_attack"+num_loadsattack;
-            scriptElement.src = "https://portalnude.com/grepolis/plan_attack.js";
+            scriptElement.src = "https://rawgit.com/Kennen/walltrip/master/plan_attack.js";
             document.body.appendChild( scriptElement );
         } else {              
             num_loadsincattack = num_loadsattack + 1;            
             var scriptElement = document.createElement( "script" );
             scriptElement.type = "text/javascript";
             scriptElement.id = "grepo_attack"+num_loadsincattack;
-            scriptElement.src = "https://portalnude.com/grepolis/plan_attack.js";
+            scriptElement.src = "https://rawgit.com/Kennen/walltrip/master/plan_attack.js";
             document.body.appendChild( scriptElement );
             document.getElementById("grepo_attack"+num_loadsattack).remove();
             num_loadsattack = num_loadsincattack;

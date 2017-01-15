@@ -1,12 +1,12 @@
  var js = [  
-            "https://raw.githubusercontent.com/Kennen/walltrip/master/ClassGeneral.js",
-            "https://raw.githubusercontent.com/Kennen/walltrip/master/trade.js",
-            "https://raw.githubusercontent.com/Kennen/walltrip/master/building.js",
-            "https://raw.githubusercontent.com/Kennen/walltrip/master/academy.js",
-            "https://raw.githubusercontent.com/Kennen/walltrip/master/units.js",
+            "https://rawgit.com/Kennen/walltrip/master/ClassGeneral.js",
+            "https://rawgit.com/Kennen/walltrip/master/trade.js",
+            "https://rawgit.com/Kennen/walltrip/master/building.js",
+            "https://rawgit.com/Kennen/walltrip/master/academy.js",
+            "https://rawgit.com/Kennen/walltrip/master/units.js",
             //"https://myforexdaily.com/grepolis_v2/cuadrar_ataques.js",
             //"https://myforexdaily.com/grepolis_v2/multi_attack.js",
-            "https://raw.githubusercontent.com/Kennen/walltrip/master/design.js"
+            "https://rawgit.com/Kennen/walltrip/master/design.js"
           ];
  /* injectamos los JS a la página */
 for (n = 0; n < js.length; n++) {
@@ -725,4 +725,3 @@ function check_city_type_units( tipo ) {
     return vuelta;
 }
 //</editor-fold>
-

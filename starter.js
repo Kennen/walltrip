@@ -69,7 +69,7 @@ var ArrayEmisor = [];
 
 
 var cicle = 0;
-var a, wa, c, toolTin;
+var a, wa, c, toolTin; 
 
 
 

@@ -355,7 +355,7 @@ function bucle_main( ArrayId ) {
         //Academia
         setTimeout(function(){ 
             print_debug( " BucleMain: ("+Array_Towns_Bot[ArrayId].name+"["+Array_Towns_Bot[ArrayId].id+"]) Check Academia" );
-            //Academy(Array_Towns_Bot[ArrayId].id, ArrayId); 
+            Academy(Array_Towns_Bot[ArrayId].id, ArrayId); 
         }, time_entre_requests * 1700 );
         
         //Unidades

@@ -207,42 +207,42 @@ function new_cicle() {
             Array_TowsData[ITowns.towns[key].id]["tipo_text"] = tipe_text;
             Array_TowsData[ITowns.towns[key].id]["tipo"] = check_city_type(tipe_text);
             Array_TowsData[ITowns.towns[key].id]["unitstipo"] = check_city_type_units(tipe_text);
-            Array_TowsData[ITowns.towns[key].id]["academiatipo"] = check_city_type_academy(tipe_text);
+            //Array_TowsData[ITowns.towns[key].id]["academiatipo"] = check_city_type_academy(tipe_text);
         }
         else if (Array_TowsData[ITowns.towns[key].id].name.length == 5) {
             var tipe_text = "conquest";
             Array_TowsData[ITowns.towns[key].id]["tipo_text"] = tipe_text;
             Array_TowsData[ITowns.towns[key].id]["tipo"] = check_city_type(tipe_text);
             Array_TowsData[ITowns.towns[key].id]["unitstipo"] = check_city_type_units(tipe_text);
-            Array_TowsData[ITowns.towns[key].id]["academiatipo"] = check_city_type_academy(tipe_text);
+            //Array_TowsData[ITowns.towns[key].id]["academiatipo"] = check_city_type_academy(tipe_text);
         }
         else if (Array_TowsData[ITowns.towns[key].id].name.length == 6) {
             var tipe_text = "nav_def";
             Array_TowsData[ITowns.towns[key].id]["tipo_text"] = tipe_text;
             Array_TowsData[ITowns.towns[key].id]["tipo"] =  check_city_type(tipe_text);
             Array_TowsData[ITowns.towns[key].id]["unitstipo"] =  check_city_type_units(tipe_text);
-            Array_TowsData[ITowns.towns[key].id]["academiatipo"] = check_city_type_academy(tipe_text);
+            //Array_TowsData[ITowns.towns[key].id]["academiatipo"] = check_city_type_academy(tipe_text);
         }
         else if (Array_TowsData[ITowns.towns[key].id].name.length == 7) {
             var tipe_text = "nav_off";
             Array_TowsData[ITowns.towns[key].id]["tipo_text"] = tipe_text;
             Array_TowsData[ITowns.towns[key].id]["tipo"] = check_city_type(tipe_text);
             Array_TowsData[ITowns.towns[key].id]["unitstipo"] = check_city_type_units(tipe_text);
-            Array_TowsData[ITowns.towns[key].id]["academiatipo"] = check_city_type_academy(tipe_text);
+            //Array_TowsData[ITowns.towns[key].id]["academiatipo"] = check_city_type_academy(tipe_text);
         }
         else if (Array_TowsData[ITowns.towns[key].id].name.length == 8) {
             var tipe_text = "mix_def";
             Array_TowsData[ITowns.towns[key].id]["tipo_text"] = tipe_text;
             Array_TowsData[ITowns.towns[key].id]["tipo"] = check_city_type(tipe_text);
             Array_TowsData[ITowns.towns[key].id]["unitstipo"] = check_city_type_units(tipe_text);
-            Array_TowsData[ITowns.towns[key].id]["academiatipo"] = check_city_type_academy(tipe_text);
+            //Array_TowsData[ITowns.towns[key].id]["academiatipo"] = check_city_type_academy(tipe_text);
         } 
         else if (Array_TowsData[ITowns.towns[key].id].name.length == 9) {
             var tipe_text = "land_off";
             Array_TowsData[ITowns.towns[key].id]["tipo_text"] = tipe_text;
             Array_TowsData[ITowns.towns[key].id]["tipo"] = check_city_type(tipe_text);
             Array_TowsData[ITowns.towns[key].id]["unitstipo"] = check_city_type_units(tipe_text);
-            Array_TowsData[ITowns.towns[key].id]["academiatipo"] = check_city_type_academy(tipe_text);
+            //Array_TowsData[ITowns.towns[key].id]["academiatipo"] = check_city_type_academy(tipe_text);
         }
         ++i;        
     }

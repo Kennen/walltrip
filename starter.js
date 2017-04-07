@@ -99,8 +99,6 @@ var a, wa, c, toolTin;
         var res = str.replace('<select class="right" ng-model="data.s.commander_pause">', '<select class="right" ng-model="data.s.commander_pause"><option value="100">0 sec</option>');
         
         a.templates.settings = res;   
-        
-        console.log(a);
                
         //console.log(a.templates.settings);
         
@@ -142,6 +140,8 @@ function init() {
     //setTimeout(function(){  bucle_AttackPlanerChecker();  }, time_entre_requests * 1000);
     //setTimeout(function(){ attack_planer(Game.townId, 1); }, time_entre_requests * 2000);
     setTimeout(function(){ new_cicle(); }, time_entre_requests * 3000);
+    
+    bucle_test();
      
     
     
@@ -390,6 +390,11 @@ function bucle_main( ArrayId ) {
     
 }    
 //</editor-fold>
+
+function bucle_test() {
+    console.log(a.recruiter.active);
+    setTimeout(function(){ bucle_test(); }, time_entre_requests * 10000);
+}
 
 
 //<editor-fold defaultstate="collapsed" desc="function bucle_trade( town_id, col_town ) ** UNUSED">

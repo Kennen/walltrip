@@ -98,7 +98,9 @@ var a, wa, c, toolTin;
         //console.log(str);
         var res = str.replace('<select class="right" ng-model="data.s.commander_pause">', '<select class="right" ng-model="data.s.commander_pause"><option value="100">0 sec</option>');
         
-        a.templates.settings = res;        
+        a.templates.settings = res;   
+        
+        console.log(a);
                
         //console.log(a.templates.settings);
         

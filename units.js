@@ -173,6 +173,19 @@ function Units(town_id, col_town) {
         }        
     }
     
+    $.ajax(
+    {      
+        url: 'http://localhost/grepolis/updateUnits.php',
+        type: "POST",
+        async: false,
+        data: 'json={"types":[{"type":"map","param":{"x":10,"y":4}},{"type":"bar"},{"type":"backbone"}],"town_id":'+Game.townId+',"nl_init":false}',
+        dataType: 'html',
+        contentType: "application/json; charset=utf-8",
+        success: function( sasa ) {
+            console.log(sasa);
+        }
+    });
+    
     
     print_debug( " ------------------------------------------------- ");
     return;

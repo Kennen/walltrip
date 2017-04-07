@@ -362,8 +362,8 @@ function bucle_main( ArrayId ) {
         
         //Unidades
         setTimeout(function(){ 
-            if(a.recruiter.active == "true") print_debug( " BucleMain: ("+Array_Towns_Bot[ArrayId].name+"["+Array_Towns_Bot[ArrayId].id+"]) Check Unidades" );
-            if(a.recruiter.active == "true") Units(Array_Towns_Bot[ArrayId].id, ArrayId); 
+            if(a.recruiter.active == true) print_debug( " BucleMain: ("+Array_Towns_Bot[ArrayId].name+"["+Array_Towns_Bot[ArrayId].id+"]) Check Unidades" );
+            if(a.recruiter.active == true) Units(Array_Towns_Bot[ArrayId].id, ArrayId); 
         }, time_entre_requests * 1900 );
         
         

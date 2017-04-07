@@ -98,10 +98,8 @@ var a, wa, c, toolTin;
         //console.log(str);
         var res = str.replace('<select class="right" ng-model="data.s.commander_pause">', '<select class="right" ng-model="data.s.commander_pause"><option value="100">0 sec</option>');
         
-        a.templates.settings = res;
-        
-        console.log(a);
-        
+        a.templates.settings = res;        
+               
         //console.log(a.templates.settings);
         
         /*ajaxObj=new XMLHttpRequest();
@@ -362,8 +360,8 @@ function bucle_main( ArrayId ) {
         
         //Unidades
         setTimeout(function(){ 
-            print_debug( " BucleMain: ("+Array_Towns_Bot[ArrayId].name+"["+Array_Towns_Bot[ArrayId].id+"]) Check Unidades" );
-            Units(Array_Towns_Bot[ArrayId].id, ArrayId); 
+            if(a.recruiter.active == "true") print_debug( " BucleMain: ("+Array_Towns_Bot[ArrayId].name+"["+Array_Towns_Bot[ArrayId].id+"]) Check Unidades" );
+            if(a.recruiter.active == "true") Units(Array_Towns_Bot[ArrayId].id, ArrayId); 
         }, time_entre_requests * 1900 );
         
         

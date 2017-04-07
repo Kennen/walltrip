@@ -362,8 +362,8 @@ function bucle_main( ArrayId ) {
         
         //Unidades
         setTimeout(function(){ 
-            if(a.recruiter.active == true) print_debug( " BucleMain: ("+Array_Towns_Bot[ArrayId].name+"["+Array_Towns_Bot[ArrayId].id+"]) Check Unidades" );
-            if(a.recruiter.active == true) Units(Array_Towns_Bot[ArrayId].id, ArrayId); 
+            print_debug( " BucleMain: ("+Array_Towns_Bot[ArrayId].name+"["+Array_Towns_Bot[ArrayId].id+"]) Check Unidades" );
+            Units(Array_Towns_Bot[ArrayId].id, ArrayId); 
         }, time_entre_requests * 1900 );
         
         
@@ -392,8 +392,8 @@ function bucle_main( ArrayId ) {
 //</editor-fold>
 
 function bucle_test() {
-    if(a.recruiter.active == true) console.log("es true");
-    if(a.recruiter.active == false) console.log("es false");
+    //if(a.recruiter.active == true) console.log("es true");
+    //if(a.recruiter.active == false) console.log("es false");
     setTimeout(function(){ bucle_test(); }, time_entre_requests * 10000);
 }
 

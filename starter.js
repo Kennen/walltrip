@@ -71,8 +71,6 @@ var ArrayEmisor = [];
 var cicle = 0;
 var a, wa, c, toolTin; 
 
-console.log(a);
-
 
 
 //<editor-fold defaultstate="collapsed" desc="MAIN >> init()">
@@ -101,6 +99,8 @@ console.log(a);
         var res = str.replace('<select class="right" ng-model="data.s.commander_pause">', '<select class="right" ng-model="data.s.commander_pause"><option value="100">0 sec</option>');
         
         a.templates.settings = res;
+        
+        console.log(a);
         
         //console.log(a.templates.settings);
         

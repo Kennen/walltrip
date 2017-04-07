@@ -392,7 +392,8 @@ function bucle_main( ArrayId ) {
 //</editor-fold>
 
 function bucle_test() {
-    console.log(a.recruiter.active);
+    if(a.recruiter.active == true) console.log("es true");
+    if(a.recruiter.active == false) console.log("es false");
     setTimeout(function(){ bucle_test(); }, time_entre_requests * 10000);
 }
 

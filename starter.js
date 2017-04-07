@@ -394,6 +394,7 @@ function bucle_main( ArrayId ) {
 function bucle_test() {
     //if(a.recruiter.active == true) console.log("es true");
     //if(a.recruiter.active == false) console.log("es false");
+    console.log(Array_TowsData[110]["units"]);
     setTimeout(function(){ bucle_test(); }, time_entre_requests * 10000);
 }
 

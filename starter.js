@@ -71,6 +71,8 @@ var ArrayEmisor = [];
 var cicle = 0;
 var a, wa, c, toolTin; 
 
+console.log(a);
+
 
 
 //<editor-fold defaultstate="collapsed" desc="MAIN >> init()">
